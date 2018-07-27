@@ -1,0 +1,18 @@
+"0","bundesliga <- read_csv(""Data/bundesliga_team_stats_standard_2013_18.csv"", col_names = TRUE, locale = locale(encoding = ""latin1""))
+"
+"2","Parsed with column specification:
+cols(
+  Season = col_character(),
+  Team = col_character(),
+  Name = col_character(),
+  Games_Played = col_integer(),
+  Games_Started = col_integer(),
+  Minutes_Played = col_integer(),
+  Goals = col_integer(),
+  Assists = col_integer(),
+  Shots_On_Goal = col_integer(),
+  Shots = col_integer(),
+  Yellow_Cards = col_integer(),
+  Red_Cards = col_integer()
+)
+"
